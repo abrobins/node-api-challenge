@@ -40,13 +40,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+- Express sits on top of Node.js and adds extra functionality like routing and middleware.
+- Express offers a lot of helper methods that make things much easier in Node.js.
+
 - [ ] Describe Middleware?
+
+In node.js and express, middleware are just functions that have access to the request and response objects, our homies (req and res) as well as next.
 
 - [ ] Describe a Resource?
 
+a resource is used in RESTful Web API's and just refers to something that is accessible from a unique URL. We manage resources by different HTTP methods (get, put, post, delete, etc..)
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+A response which we can then use in our application.
+
 - [ ] How can we partition our application into sub-applications?
+
+Using routing we can partition an application to have various URLs based on different HTTP methods. This can allow us to have different HTTP methods used for the same URLs. For instance you could have a GET and POST for the same endpoint so you're not having to add so many different endpoints.
 
 ## Minimum Viable Product
 
